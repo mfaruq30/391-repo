@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects | Resume</title>
+  <link rel="stylesheet" href="projects.css" type="text/css">
+</head>
+
+<body>
+  <div id="page-wrapper">
+
+    <header>
+      <h1>Mirzas Resume</h1>
+      <p>Projects</p>
+    </header>
+
+    <div id="container">
+      <nav>
+        <ul>
+          <li><a href="../home/home.html">home</a></li>
+          <li><a href="../education/education.html">education</a></li>
+          <li><a href="../experiences/experiences.html">experiences</a></li>
+          <li><a href="../skills/skills.html">skills</a></li>
+          <li><a href="../extracurriculers/extracurriculers.html">extracurriculers</a></li>
+          <li><a href="../projects/projects.html">projects</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h2><a href="https://github.com/mfaruq30" target="_blank">GitHub</a></h2>
+
+        <div id="calculator">
+          <h2>Calculator</h2>
+
+          <div id="input-section">
+            <label for="one">Give me a number:</label>
+            <input id="one" type="text">
+
+            <br>
+
+            <label for="two">Give me a number:</label>
+            <input id="two" type="text">
+          </div>
+
+          <div id="button-section">
+            <button onclick="doAdd()">+</button>
+            <button onclick="doSubtract()">-</button>
+            <button onclick="doMultiply()">*</button>
+            <button onclick="doDivision()">/</button>
+            <button onclick="doExponentiation()">**</button>
+            <button onclick="doClear()">Clear</button>
+          </div>
+
+          <div id="output-section">
+            <h2 id="output"></h2>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <p>All rights reserved &#169;</p>
+    </footer>
+
+  </div>
+
+  <script src="projects.js"></script>
+</body>
+</html>
+
